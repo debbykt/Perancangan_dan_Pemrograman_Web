@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        .demo-grid .row>div {
+            background-color: bisque;
+            border: 10px solid red;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body class="bg-light pb-5">
+    <div class="container my-4">
+        <h1 class="text-center fw-bold mb-4">Praktikum Bootstrap Modul 4</h1>
+        <section class="card mb-4 shadow-sm">
+            <div class="card-header bg-primary text-white fw-bold">1 Bootstrap Container & Grid</div>
+            <div class="card-body demo-grid">
+                <p class="text-secondary">Penerapan 12 Kolom </p>
+                <div class="row mb-2">
+                    <div class="col-12 col-md-8">Isi Konten</div>
+                    <div class="col-6 col-md-4">Isi Konten 2</div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-6 col-md-4">Isi Konten Bab 2</div>
+                    <div class="col-6 col-md-4">Isi Konten 2</div>
+                    <div class="col-6 col-md-4">Isi Konten 3</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card mb-4 shadow-sm">
+            <div>2. Text Style & Button Styles</div>
+            <div>
+                <p class="text-start">Teks Rata Kiri</p>
+                <p class="text-center fw-bold">Teks Rata Tengah Tebal</p>
+                <p class="text-endfst-italic">Teks Rata Kanan Miring</p>
+                <p class="text-uppercase">Teks Diubah Menjadi Huruf Besar Semua</p>
+            </div>
+            <h5>Button</h5>
+            <div class="d-flex flex-wrap gap-2">
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn btn-primary btn-lg">Primary (Large)</button>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-info btn-sm">Info (Small)</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-link">Link</button>
+            </div>
+        </section>
+
+        <section class="card">
+            <div>3. Bootstrap Table</div>
+            <div>
+                <table class="table table-hiver tabel-border">
+
+                    <thead>
+                        <tr>
+                            <th>Nama</th>
+                            <th>Jurusan</th>
+                            <th>Angkatan</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th>Debby</th>
+                            <th>RPL</th>
+                            <th>2024</th>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
